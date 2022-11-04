@@ -1,0 +1,35 @@
+﻿@model List<EnrollCourseModel>
+
+@{
+   var studentId = ViewBag.studentId;
+}
+<h4>EnrollCourseModel</h4>
+<hr />
+<form method="post" asp-action="EnrollCourse">
+    <div class="card">
+		<div class="card-header">
+			<h3>Manage Courses </h3>
+		</div>
+		<div class="card-body">
+			@for(int cnt = 0 ; cnt <Model.Count; cnt++)
+			{
+				<div class="form-check m-1">
+					<input type="hidden" asp-for="@Model[cnt].CourseId">
+						
+						<input type="hidden" asp-for="@Model[cnt].CourseTeacher">
+						<input type="hidden" asp-for="@Model[cnt].CourseCode">
+
+					<input asp-for="@Model[cnt].IsSelected" class="form-check-input"/>
+					<label class="form-check m-1" asp-for="@Model[cnt].IsSelected">
+						@Model[cnt].CourseTitle
+					</label>
+					
+				</div>
+			}
+		</div>
+		<div class="card-footer">
+			<input type="submit" value="Update" class="btn btn-primary" style="width:auto"/>
+			<a asp-action="Edit" asp-route-id="@studentId" class="btn btn-primary" style="width:auto">Cancle</a>
+		</div>
+	</div>
+</form>

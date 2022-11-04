@@ -1,0 +1,27 @@
+﻿@model StudentModel
+<p>
+    Student Name : @Model.Name
+    <br />
+    Student Roll: @Model.Roll
+    <br />
+
+</p>
+
+@if(Model.EnrolledCourses.Any())
+{
+    <h3>Enrolled Courses</h3>
+    @foreach(var course in Model.EnrolledCourses)
+   {
+    <p>Cours Name: @course.Title</p>
+   }
+}
+else{
+   <p>
+       No Available Enrolled Course
+   </p>
+}
+
+
+<p>
+    <a asp-action="EnrollCourse" asp-controller="Student" asp-route-id="@Model.Id">Manage Enrolled Course</a>
+</p>

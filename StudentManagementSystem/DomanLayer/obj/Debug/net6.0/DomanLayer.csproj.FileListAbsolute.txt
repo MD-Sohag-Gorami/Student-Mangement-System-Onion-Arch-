@@ -1,0 +1,12 @@
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.csproj.AssemblyReference.cache
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.AssemblyInfoInputs.cache
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.AssemblyInfo.cs
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.csproj.CoreCompileInputs.cache
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\bin\Debug\net6.0\DomanLayer.deps.json
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\bin\Debug\net6.0\DomanLayer.dll
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\bin\Debug\net6.0\DomanLayer.pdb
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.dll
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\refint\DomanLayer.dll
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\DomanLayer.pdb
+E:\Project\Student Management System (Onion Arch)\StudentManagementSystem\DomanLayer\obj\Debug\net6.0\ref\DomanLayer.dll

@@ -1,0 +1,22 @@
+﻿@model TeacherModel
+<h1>Detail page</h1>
+
+    Teache Name : @Model.Name
+    <br/>
+
+   
+        @foreach(var course in Model.TakenCourses)
+        {
+           
+                   <p>
+                      Name : @course.Title
+                      <br/>
+                      Code: @course.Code
+                   </p> 
+                   
+                 
+           
+          
+        }
+ 
+
